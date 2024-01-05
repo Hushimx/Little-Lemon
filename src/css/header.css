@@ -1,0 +1,41 @@
+nav {
+  background-color: #fefefe;
+  min-height: 76px;
+  z-index: 1;
+  position: relative;
+}
+.holder {
+  position: relative;
+}
+.navItmes {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav a {
+  margin-right: 5px;
+}
+.nav-link {
+  font-family: "Markazi Text", serif !important;
+  font-size: 24px;
+}
+.lemonBtn {
+  all: unset;
+  transition-duration: 0.5s;
+  background-color: #f4ce14;
+  color: black;
+  border-radius: 20px;
+  font-size: 20px !important;
+  padding: 5px;
+  width: 10rem;
+  text-align: center;
+  border-radius: 23px !important;
+}
+.lemonBtn:hover {
+  background-color: rgb(87, 122, 110) !important;
+  color: white !important;
+}
+
+a {
+  cursor: pointer !important;
+}

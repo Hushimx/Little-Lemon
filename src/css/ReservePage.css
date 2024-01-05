@@ -1,0 +1,20 @@
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+label {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input,
+select {
+  margin-bottom: 20px !important;
+}
